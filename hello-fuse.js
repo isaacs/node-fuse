@@ -18,7 +18,6 @@ fuse.mount
         } else {
           cb(-1 * constants.ENOENT)
         }
-        return 0
       }
     , readdir : function (path, offset, info) {
         if (path !== "/") return -1 * constants.ENOENT

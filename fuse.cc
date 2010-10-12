@@ -5,6 +5,7 @@
 #include <string.h>
 
 #include <fuse.h>
+#include <fuse_lowlevel.h>
 #include <errno.h>
 #include <fcntl.h>
 
