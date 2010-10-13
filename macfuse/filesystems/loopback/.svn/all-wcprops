@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1486/trunk/filesystems/loopback
+END
+loopback.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1486/trunk/filesystems/loopback/loopback.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1392/trunk/filesystems/loopback/Makefile
+END

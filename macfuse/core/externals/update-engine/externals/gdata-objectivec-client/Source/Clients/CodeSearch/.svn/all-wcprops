@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch
+END
+GDataFeedCodeSearch.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataFeedCodeSearch.m
+END
+GDataCodeSearchPackage.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataCodeSearchPackage.h
+END
+GDataCodeSearchMatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataCodeSearchMatch.h
+END
+GDataCodeSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/103/trunk/Source/Clients/CodeSearch/GDataCodeSearch.h
+END
+GDataCodeSearchFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataCodeSearchFile.h
+END
+GDataCodeSearchPackage.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataCodeSearchPackage.m
+END
+GDataEntryCodeSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataEntryCodeSearch.h
+END
+GDataCodeSearchMatch.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataCodeSearchMatch.m
+END
+GDataFeedCodeSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataFeedCodeSearch.h
+END
+GDataCodeSearchFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataCodeSearchFile.m
+END
+GDataEntryCodeSearch.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/CodeSearch/GDataEntryCodeSearch.m
+END

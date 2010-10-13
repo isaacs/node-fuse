@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/571/trunk/Source/Clients/Maps
+END
+GDataQueryMaps.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/408/trunk/Source/Clients/Maps/GDataQueryMaps.m
+END
+GDataEntryMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/408/trunk/Source/Clients/Maps/GDataEntryMap.h
+END
+GDataMaps.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/405/trunk/Source/Clients/Maps/GDataMaps.h
+END
+GDataFeedMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataFeedMap.h
+END
+GDataEntryMap.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/408/trunk/Source/Clients/Maps/GDataEntryMap.m
+END
+GDataEntryMapVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataEntryMapVersion.h
+END
+GDataFeedMap.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataFeedMap.m
+END
+GDataFeedMapVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataFeedMapVersion.h
+END
+GDataMapConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/408/trunk/Source/Clients/Maps/GDataMapConstants.h
+END
+GDataEntryMapVersion.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataEntryMapVersion.m
+END
+GDataEntryMapFeature.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/392/trunk/Source/Clients/Maps/GDataEntryMapFeature.h
+END
+GDataFeedMapVersion.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataFeedMapVersion.m
+END
+GDataFeedMapFeature.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataFeedMapFeature.h
+END
+GDataServiceGoogleMaps.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/405/trunk/Source/Clients/Maps/GDataServiceGoogleMaps.h
+END
+GDataMapConstants.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataMapConstants.m
+END
+GDataEntryMapFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/392/trunk/Source/Clients/Maps/GDataEntryMapFeature.m
+END
+GDataFeedMapFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Maps/GDataFeedMapFeature.m
+END
+GDataServiceGoogleMaps.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/571/trunk/Source/Clients/Maps/GDataServiceGoogleMaps.m
+END
+GDataQueryMaps.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/405/trunk/Source/Clients/Maps/GDataQueryMaps.h
+END

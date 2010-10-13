@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/565/trunk/Source/Clients/Contacts
+END
+GDataContactConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/375/trunk/Source/Clients/Contacts/GDataContactConstants.h
+END
+GDataGroupMembershipInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataGroupMembershipInfo.m
+END
+GDataEntryContactGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataEntryContactGroup.h
+END
+GDataContactPriority.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactPriority.h
+END
+GDataContactConstants.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactConstants.m
+END
+GDataEntryContactGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataEntryContactGroup.m
+END
+GDataFeedContactProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataFeedContactProfile.h
+END
+GDataContactPriority.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactPriority.m
+END
+GDataFeedContactProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataFeedContactProfile.m
+END
+GDataContactSensitivity.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactSensitivity.h
+END
+GDataEntryContactBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/565/trunk/Source/Clients/Contacts/GDataEntryContactBase.h
+END
+GDataServiceGoogleContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/501/trunk/Source/Clients/Contacts/GDataServiceGoogleContact.h
+END
+GDataContactLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactLink.h
+END
+GDataContactSensitivity.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactSensitivity.m
+END
+GDataEntryContactBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/565/trunk/Source/Clients/Contacts/GDataEntryContactBase.m
+END
+GDataContactUserDefinedField.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactUserDefinedField.h
+END
+GDataServiceGoogleContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/478/trunk/Source/Clients/Contacts/GDataServiceGoogleContact.m
+END
+GDataContacts.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/502/trunk/Source/Clients/Contacts/GDataContacts.h
+END
+GDataContactLink.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactLink.m
+END
+GDataFeedContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataFeedContact.h
+END
+GDataQueryContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataQueryContact.h
+END
+GDataContactUserDefinedField.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactUserDefinedField.m
+END
+GDataFeedContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataFeedContact.m
+END
+GDataQueryContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataQueryContact.m
+END
+GDataContactElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/502/trunk/Source/Clients/Contacts/GDataContactElements.h
+END
+GDataContactRelation.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactRelation.h
+END
+GDataFeedContactGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataFeedContactGroup.h
+END
+GDataContactEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactEvent.h
+END
+GDataContactElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactElements.m
+END
+GDataEntryContactProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataEntryContactProfile.h
+END
+GDataContactRelation.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactRelation.m
+END
+GDataContactLanguage.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactLanguage.h
+END
+GDataFeedContactGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataFeedContactGroup.m
+END
+GDataContactEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactEvent.m
+END
+GDataEntryContactProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataEntryContactProfile.m
+END
+GDataContactLanguage.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactLanguage.m
+END
+GDataContactJot.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactJot.h
+END
+GDataContactExternalID.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactExternalID.h
+END
+GDataEntryContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataEntryContact.h
+END
+GDataContactJot.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactJot.m
+END
+GDataContactExternalID.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataContactExternalID.m
+END
+GDataEntryContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/565/trunk/Source/Clients/Contacts/GDataEntryContact.m
+END
+GDataGroupMembershipInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/Contacts/GDataGroupMembershipInfo.h
+END

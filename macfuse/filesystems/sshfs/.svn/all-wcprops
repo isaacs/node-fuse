@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1426/trunk/filesystems/sshfs
+END
+sshfs-fuse-1.8-macosx.patch
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/527/trunk/filesystems/sshfs/sshfs-fuse-1.8-macosx.patch
+END
+sshfs-fuse-1.9-macosx.patch
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/744/trunk/filesystems/sshfs/sshfs-fuse-1.9-macosx.patch
+END
+sshfs-fuse-2.0-macosx.patch
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/936/trunk/filesystems/sshfs/sshfs-fuse-2.0-macosx.patch
+END
+sshfs-fuse-2.1-macosx.patch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1050/trunk/filesystems/sshfs/sshfs-fuse-2.1-macosx.patch
+END
+sshfs-fuse-2.2-macosx.patch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1324/trunk/filesystems/sshfs/sshfs-fuse-2.2-macosx.patch
+END

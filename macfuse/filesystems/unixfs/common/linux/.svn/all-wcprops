@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/common/linux
+END
+linux.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/common/linux/linux.c
+END
+linux.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/common/linux/linux.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/common/linux/COPYING
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/3/trunk/XcodeConfigs/Target
+END
+ReleaseUnittest.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/XcodeConfigs/Target/ReleaseUnittest.xcconfig
+END
+DebugUnittest.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/XcodeConfigs/Target/DebugUnittest.xcconfig
+END
+SharedLibrary.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/XcodeConfigs/Target/SharedLibrary.xcconfig
+END
+LoadableBundle.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/XcodeConfigs/Target/LoadableBundle.xcconfig
+END
+Unittest.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/XcodeConfigs/Target/Unittest.xcconfig
+END

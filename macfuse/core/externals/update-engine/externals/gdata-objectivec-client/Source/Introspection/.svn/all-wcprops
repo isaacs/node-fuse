@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/375/trunk/Source/Introspection
+END
+GDataAtomCategoryGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomCategoryGroup.h
+END
+GDataAtomCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomCollection.h
+END
+GDataAtomWorkspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomWorkspace.h
+END
+GDataAtomServiceDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomServiceDocument.h
+END
+GDataAtomCategoryGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomCategoryGroup.m
+END
+GDataAtomCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomCollection.m
+END
+GDataServiceIntrospection.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/189/trunk/Source/Introspection/GDataServiceIntrospection.h
+END
+GDataAtomWorkspace.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomWorkspace.m
+END
+GDataAtomServiceDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/375/trunk/Source/Introspection/GDataAtomServiceDocument.m
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1109/trunk/core/autoinstaller/TestKeys
+END
+public_key.der
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1109/trunk/core/autoinstaller/TestKeys/public_key.der
+END
+private_key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1109/trunk/core/autoinstaller/TestKeys/private_key.pem
+END
+public_key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1109/trunk/core/autoinstaller/TestKeys/public_key.pem
+END
+private_key.der
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1109/trunk/core/autoinstaller/TestKeys/private_key.der
+END

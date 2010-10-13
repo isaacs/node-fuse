@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/503/trunk/Source/ACL
+END
+GDataACLKeyedRole.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/503/trunk/Source/ACL/GDataACLKeyedRole.m
+END
+GDataFeedACL.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/503/trunk/Source/ACL/GDataFeedACL.m
+END
+GDataACLScope.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/503/trunk/Source/ACL/GDataACLScope.h
+END
+GDataACLScope.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/503/trunk/Source/ACL/GDataACLScope.m
+END
+GDataACL.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/503/trunk/Source/ACL/GDataACL.h
+END
+GDataServiceACL.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/503/trunk/Source/ACL/GDataServiceACL.h
+END
+GDataEntryACL.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/503/trunk/Source/ACL/GDataEntryACL.h
+END
+GDataACLRole.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/503/trunk/Source/ACL/GDataACLRole.h
+END
+GDataACLKeyedRole.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/503/trunk/Source/ACL/GDataACLKeyedRole.h
+END
+GDataFeedACL.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/503/trunk/Source/ACL/GDataFeedACL.h
+END
+GDataServiceACL.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/503/trunk/Source/ACL/GDataServiceACL.m
+END
+GDataACLRole.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/503/trunk/Source/ACL/GDataACLRole.m
+END
+GDataEntryACL.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/503/trunk/Source/ACL/GDataEntryACL.m
+END

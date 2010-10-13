@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/577/trunk/Source
+END
+GDataUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/411/trunk/Source/GDataUtilities.h
+END
+GDataFramework.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/388/trunk/Source/GDataFramework.h
+END
+GDataDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/322/trunk/Source/GDataDefines.h
+END
+GData.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/289/trunk/Source/GData.h
+END
+GDataUtilities.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/482/trunk/Source/GDataUtilities.m
+END
+ReleaseNotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/566/trunk/Source/ReleaseNotes.txt
+END
+GDataFramework.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/482/trunk/Source/GDataFramework.m
+END
+GDataTargetNamespace.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/573/trunk/Source/GDataTargetNamespace.h
+END

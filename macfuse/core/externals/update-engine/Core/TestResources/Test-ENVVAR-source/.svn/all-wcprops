@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/45/trunk/Core/TestResources/Test-ENVVAR-source
+END
+.engine_postinstall
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/45/trunk/Core/TestResources/Test-ENVVAR-source/.engine_postinstall
+END
+.engine_preinstall
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/45/trunk/Core/TestResources/Test-ENVVAR-source/.engine_preinstall
+END
+.engine_install
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/45/trunk/Core/TestResources/Test-ENVVAR-source/.engine_install
+END
+.script_common
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/45/trunk/Core/TestResources/Test-ENVVAR-source/.script_common
+END

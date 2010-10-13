@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/3/trunk/Common/TestResources
+END
+WithSLA.dmg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/Common/TestResources/WithSLA.dmg
+END
+Encrypted.dmg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/Common/TestResources/Encrypted.dmg
+END

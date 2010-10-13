@@ -1,0 +1,49 @@
+10
+
+dir
+1686
+http://macfuse.googlecode.com/svn/trunk/filesystems
+http://macfuse.googlecode.com/svn
+
+
+
+2009-03-08T01:12:22.425610Z
+1677
+singh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+febdc8c4-1326-0410-abd6-27cb15717650
+
+verybigfs
+dir
+
+hello
+dir
+
+grabfs
+dir
+
+sshfs
+dir
+
+loopback
+dir
+
+procfs
+dir
+
+unixfs
+dir
+

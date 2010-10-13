@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1426/trunk/filesystems/sshfs/binary
+END
+sshfs-static-leopard
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1426/trunk/filesystems/sshfs/binary/sshfs-static-leopard
+END
+sshfs-static-tiger
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1426/trunk/filesystems/sshfs/binary/sshfs-static-tiger
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1374/trunk/filesystems/sshfs/binary/README.txt
+END

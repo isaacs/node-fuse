@@ -1,0 +1,62 @@
+// ================================================================
+// Copyright (c) 2008, Google Inc.
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are
+// met:
+//
+// * Redistributions of source code must retain the above copyright
+//   notice, this list of conditions and the following disclaimer.
+// * Redistributions in binary form must reproduce the above
+//   copyright notice, this list of conditions and the following disclaimer
+//   in the documentation and/or other materials provided with the
+//   distribution.
+// * Neither the name of Google Inc. nor the names of its
+//   contributors may be used to endorse or promote products derived from
+//   this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+// OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+// LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+// DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+// THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+// OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+// ================================================================
+//
+//  MacFUSE.hdoc
+// 
+// Header documentation for MacFUSE.framework.
+//
+
+/*!
+ * @framework MacFUSE Framework
+ * @abstract An Objective-C API for using MacFUSE to create file systems.
+ * @discussion MacFUSE.framework is an Objective-C API for MacFUSE that 
+ * enables you to easily create a file system in user space. With a little bit
+ * of work, MacFUSE can be used to display any data set as a file system that
+ * can be viewed and manipulated in the Finder.<br>
+ *
+ *
+ * Building a working file system involves creating a class that implements a 
+ * subset of the 
+ * <a href="GMUserFileSystem/Categories/NSObject_GMUserFileSystemOperations_/index.html">
+ * GMUserFileSystemOperations</a> informal protocol methods to 
+ * serve your file system's data, and using a 
+ * <a href="GMUserFileSystem/Classes/GMUserFileSystem_/index.html">GMUserFileSystem</a>
+ * instance to act as the file system's controller.<br>
+ *
+ *
+ * The best way to get started with MacFUSE.framework is to follow the 
+ * <a href="http://code.google.com/p/macfuse/wiki/DEVELOPER_OBJC_HOWTO">tutorial</a>,
+ * which guides you through creating a simple read-only file system. It is also
+ * a good idea to look at some other Objective-C examples, such as HelloFS, 
+ * LoopbackFS, and the other example file systems found
+ * <a href="http://macfuse.googlecode.com/svn/trunk/filesystems-objc/">here</a>.
+ */
+ 

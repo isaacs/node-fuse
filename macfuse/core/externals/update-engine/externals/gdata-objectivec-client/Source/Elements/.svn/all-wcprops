@@ -1,0 +1,431 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/565/trunk/Source/Elements
+END
+GDataBatchStatus.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/284/trunk/Source/Elements/GDataBatchStatus.m
+END
+GDataMoney.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/453/trunk/Source/Elements/GDataMoney.m
+END
+GDataDateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/275/trunk/Source/Elements/GDataDateTime.h
+END
+GDataBatchID.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/131/trunk/Source/Elements/GDataBatchID.h
+END
+GDataDateTime.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/563/trunk/Source/Elements/GDataDateTime.m
+END
+GDataComment.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/507/trunk/Source/Elements/GDataComment.h
+END
+GDataBatchID.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/275/trunk/Source/Elements/GDataBatchID.m
+END
+GDataIM.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/305/trunk/Source/Elements/GDataIM.h
+END
+GDataOrganizationName.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Elements/GDataOrganizationName.h
+END
+GDataDeleted.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/275/trunk/Source/Elements/GDataDeleted.h
+END
+GDataBaseElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/444/trunk/Source/Elements/GDataBaseElements.h
+END
+GDataComment.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/507/trunk/Source/Elements/GDataComment.m
+END
+GDataIM.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/305/trunk/Source/Elements/GDataIM.m
+END
+GDataOrganizationName.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Elements/GDataOrganizationName.m
+END
+GDataDeleted.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/103/trunk/Source/Elements/GDataDeleted.m
+END
+GDataBaseElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/444/trunk/Source/Elements/GDataBaseElements.m
+END
+GDataValueConstruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/269/trunk/Source/Elements/GDataValueConstruct.h
+END
+GDataValueConstruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/275/trunk/Source/Elements/GDataValueConstruct.m
+END
+GDataEntryContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/279/trunk/Source/Elements/GDataEntryContent.h
+END
+GDataLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/414/trunk/Source/Elements/GDataLink.h
+END
+GDataEntryContent.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/513/trunk/Source/Elements/GDataEntryContent.m
+END
+GDataLink.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/276/trunk/Source/Elements/GDataLink.m
+END
+GDataOrganization.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/305/trunk/Source/Elements/GDataOrganization.h
+END
+GDataExtendedProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Elements/GDataExtendedProperty.h
+END
+GDataPostalAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/305/trunk/Source/Elements/GDataPostalAddress.h
+END
+GDataOrganization.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/305/trunk/Source/Elements/GDataOrganization.m
+END
+GDataExtendedProperty.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Elements/GDataExtendedProperty.m
+END
+GDataPostalAddress.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/305/trunk/Source/Elements/GDataPostalAddress.m
+END
+GDataFeedLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/139/trunk/Source/Elements/GDataFeedLink.h
+END
+GDataRating.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/305/trunk/Source/Elements/GDataRating.h
+END
+GDataFeedLink.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/289/trunk/Source/Elements/GDataFeedLink.m
+END
+GDataRating.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/305/trunk/Source/Elements/GDataRating.m
+END
+GDataStructuredPostalAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Elements/GDataStructuredPostalAddress.h
+END
+GDataStructuredPostalAddress.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Elements/GDataStructuredPostalAddress.m
+END
+GDataBatchOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/275/trunk/Source/Elements/GDataBatchOperation.h
+END
+GDataBatchOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/275/trunk/Source/Elements/GDataBatchOperation.m
+END
+GDataBatchInterrupted.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/131/trunk/Source/Elements/GDataBatchInterrupted.h
+END
+GDataBatchInterrupted.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/275/trunk/Source/Elements/GDataBatchInterrupted.m
+END
+GDataCategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/403/trunk/Source/Elements/GDataCategory.h
+END
+GDataCustomProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/306/trunk/Source/Elements/GDataCustomProperty.h
+END
+GDataEntryLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/131/trunk/Source/Elements/GDataEntryLink.h
+END
+GDataPhoneNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/305/trunk/Source/Elements/GDataPhoneNumber.h
+END
+GDataCategory.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/403/trunk/Source/Elements/GDataCategory.m
+END
+GDataCustomProperty.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/305/trunk/Source/Elements/GDataCustomProperty.m
+END
+GDataEntryLink.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/275/trunk/Source/Elements/GDataEntryLink.m
+END
+GDataGenerator.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/131/trunk/Source/Elements/GDataGenerator.h
+END
+GDataEmail.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/305/trunk/Source/Elements/GDataEmail.h
+END
+GDataPhoneNumber.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/305/trunk/Source/Elements/GDataPhoneNumber.m
+END
+GDataTextConstruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/131/trunk/Source/Elements/GDataTextConstruct.h
+END
+GDataGenerator.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/275/trunk/Source/Elements/GDataGenerator.m
+END
+GDataEmail.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/305/trunk/Source/Elements/GDataEmail.m
+END
+GDataWho.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/305/trunk/Source/Elements/GDataWho.h
+END
+GDataTextConstruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/275/trunk/Source/Elements/GDataTextConstruct.m
+END
+GDataWhen.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/305/trunk/Source/Elements/GDataWhen.h
+END
+GDataWho.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/305/trunk/Source/Elements/GDataWho.m
+END
+GDataWhen.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/305/trunk/Source/Elements/GDataWhen.m
+END
+GDataPerson.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/169/trunk/Source/Elements/GDataPerson.h
+END
+GDataAtomPubControl.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/375/trunk/Source/Elements/GDataAtomPubControl.h
+END
+GDataWhere.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/305/trunk/Source/Elements/GDataWhere.h
+END
+GDataPerson.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/218/trunk/Source/Elements/GDataPerson.m
+END
+GDataDocumentElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/432/trunk/Source/Elements/GDataDocumentElements.h
+END
+GDataElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/422/trunk/Source/Elements/GDataElements.h
+END
+GDataAtomPubControl.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/375/trunk/Source/Elements/GDataAtomPubControl.m
+END
+GDataGeoPt.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/305/trunk/Source/Elements/GDataGeoPt.h
+END
+GDataWhere.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/305/trunk/Source/Elements/GDataWhere.m
+END
+GDataDocumentElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/432/trunk/Source/Elements/GDataDocumentElements.m
+END
+GDataName.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/305/trunk/Source/Elements/GDataName.h
+END
+GDataGeoPt.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/305/trunk/Source/Elements/GDataGeoPt.m
+END
+GDataBatchStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/284/trunk/Source/Elements/GDataBatchStatus.h
+END
+GDataName.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/565/trunk/Source/Elements/GDataName.m
+END
+GDataMoney.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/453/trunk/Source/Elements/GDataMoney.h
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/470/trunk/Examples/FinanceSample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/134/trunk/Examples/FinanceSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/196/trunk/Examples/FinanceSample/buildCopyScript
+END
+FinanceSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/134/trunk/Examples/FinanceSample/FinanceSampleAppController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/398/trunk/Examples/FinanceSample/Info.plist
+END
+FinanceSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/134/trunk/Examples/FinanceSample/FinanceSampleAppController.m
+END
+FinanceSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/376/trunk/Examples/FinanceSample/FinanceSampleWindowController.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/159/trunk/Examples/FinanceSample/README.txt
+END
+FinanceSample_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/134/trunk/Examples/FinanceSample/FinanceSample_Prefix.pch
+END
+FinanceSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/470/trunk/Examples/FinanceSample/FinanceSampleWindowController.m
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/134/trunk/Examples/FinanceSample/buildStripHeaders
+END

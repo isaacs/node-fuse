@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1663/trunk/core/prefpane
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1651/trunk/core/prefpane/Info.plist
+END
+MacFUSEPref_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1478/trunk/core/prefpane/MacFUSEPref_Prefix.pch
+END
+MacFUSEPref.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1478/trunk/core/prefpane/MacFUSEPref.h
+END
+MacFUSEPref.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1663/trunk/core/prefpane/MacFUSEPref.m
+END
+MacFUSE.icns
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1504/trunk/core/prefpane/MacFUSE.icns
+END

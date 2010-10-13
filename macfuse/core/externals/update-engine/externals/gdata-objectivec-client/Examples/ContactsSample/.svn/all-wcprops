@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/398/trunk/Examples/ContactsSample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/107/trunk/Examples/ContactsSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/196/trunk/Examples/ContactsSample/buildCopyScript
+END
+ContactsSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/107/trunk/Examples/ContactsSample/ContactsSampleAppController.m
+END
+ContactsSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/223/trunk/Examples/ContactsSample/ContactsSampleWindowController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/398/trunk/Examples/ContactsSample/Info.plist
+END
+ContactsSample_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/107/trunk/Examples/ContactsSample/ContactsSample_Prefix.pch
+END
+ContactsSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/396/trunk/Examples/ContactsSample/ContactsSampleWindowController.m
+END
+EditEntryWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/131/trunk/Examples/ContactsSample/EditEntryWindowController.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/159/trunk/Examples/ContactsSample/README.txt
+END
+ContactsSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/107/trunk/Examples/ContactsSample/ContactsSampleAppController.h
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/107/trunk/Examples/ContactsSample/buildStripHeaders
+END
+EditEntryWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/Examples/ContactsSample/EditEntryWindowController.m
+END

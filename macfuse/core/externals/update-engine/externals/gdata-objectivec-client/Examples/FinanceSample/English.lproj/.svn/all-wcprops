@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/376/trunk/Examples/FinanceSample/English.lproj
+END
+InfoPlist.strings
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/134/trunk/Examples/FinanceSample/English.lproj/InfoPlist.strings
+END
+MainMenu.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/309/trunk/Examples/FinanceSample/English.lproj/MainMenu.xib
+END
+FinanceSampleWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/376/trunk/Examples/FinanceSample/English.lproj/FinanceSampleWindow.xib
+END

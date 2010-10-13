@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1407/trunk/support/testing/posix_compat_test
+END
+posix_compat_test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1407/trunk/support/testing/posix_compat_test/posix_compat_test.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1407/trunk/support/testing/posix_compat_test/Makefile
+END

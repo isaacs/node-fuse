@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/571/trunk/Source/Clients/Blogger
+END
+GDataEntryBlogComment.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataEntryBlogComment.h
+END
+GDataFeedBlogComment.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataFeedBlogComment.h
+END
+GDataEntryBlogComment.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataEntryBlogComment.m
+END
+GDataServiceGoogleBlogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataServiceGoogleBlogger.h
+END
+GDataFeedBlogComment.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataFeedBlogComment.m
+END
+GDataThreadingElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataThreadingElements.h
+END
+GDataServiceGoogleBlogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/571/trunk/Source/Clients/Blogger/GDataServiceGoogleBlogger.m
+END
+GDataEntryBlog.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataEntryBlog.h
+END
+GDataThreadingElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/546/trunk/Source/Clients/Blogger/GDataThreadingElements.m
+END
+GDataFeedBlog.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataFeedBlog.h
+END
+GDataEntryBlog.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataEntryBlog.m
+END
+GDataEntryBlogPost.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataEntryBlogPost.h
+END
+GDataFeedBlog.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataFeedBlog.m
+END
+GDataFeedBlogPost.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataFeedBlogPost.h
+END
+GDataBloggerConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataBloggerConstants.h
+END
+GDataEntryBlogPost.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataEntryBlogPost.m
+END
+GDataBlogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/473/trunk/Source/Clients/Blogger/GDataBlogger.h
+END
+GDataFeedBlogPost.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataFeedBlogPost.m
+END
+GDataBloggerConstants.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Blogger/GDataBloggerConstants.m
+END

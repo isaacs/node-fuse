@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/332/trunk/Source/Clients/Health
+END
+GDataServiceGoogleHealth.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/332/trunk/Source/Clients/Health/GDataServiceGoogleHealth.m
+END
+GDataQueryGoogleHealth.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Health/GDataQueryGoogleHealth.h
+END
+GDataEntryHealthRegister.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataEntryHealthRegister.h
+END
+GDataQueryGoogleHealth.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Health/GDataQueryGoogleHealth.m
+END
+GDataFeedHealthRegister.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/Health/GDataFeedHealthRegister.h
+END
+GDataEntryHealthRegister.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataEntryHealthRegister.m
+END
+GDataHealthElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Health/GDataHealthElements.h
+END
+GDataHealthConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataHealthConstants.h
+END
+GDataFeedHealthRegister.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataFeedHealthRegister.m
+END
+GDataHealth.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataHealth.h
+END
+GDataHealthConstants.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataHealthConstants.m
+END
+GDataHealthElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataHealthElements.m
+END
+GDataEntryHealthProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataEntryHealthProfile.h
+END
+GDataFeedHealthProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Health/GDataFeedHealthProfile.h
+END
+GDataEntryHealthProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataEntryHealthProfile.m
+END
+GDataFeedHealthProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/307/trunk/Source/Clients/Health/GDataFeedHealthProfile.m
+END
+GDataServiceGoogleHealth.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/Health/GDataServiceGoogleHealth.h
+END

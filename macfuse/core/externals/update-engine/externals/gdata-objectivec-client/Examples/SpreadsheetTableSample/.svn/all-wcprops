@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/398/trunk/Examples/SpreadsheetTableSample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/274/trunk/Examples/SpreadsheetTableSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/274/trunk/Examples/SpreadsheetTableSample/buildCopyScript
+END
+SpreadsheetTableSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/274/trunk/Examples/SpreadsheetTableSample/SpreadsheetTableSampleAppController.m
+END
+SpreadsheetTableSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/312/trunk/Examples/SpreadsheetTableSample/SpreadsheetTableSampleWindowController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/398/trunk/Examples/SpreadsheetTableSample/Info.plist
+END
+SpreadsheetTableSample_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/274/trunk/Examples/SpreadsheetTableSample/SpreadsheetTableSample_Prefix.pch
+END
+SpreadsheetTableSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/312/trunk/Examples/SpreadsheetTableSample/SpreadsheetTableSampleWindowController.m
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/274/trunk/Examples/SpreadsheetTableSample/README.txt
+END
+SpreadsheetTableSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/274/trunk/Examples/SpreadsheetTableSample/SpreadsheetTableSampleAppController.h
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/274/trunk/Examples/SpreadsheetTableSample/buildStripHeaders
+END

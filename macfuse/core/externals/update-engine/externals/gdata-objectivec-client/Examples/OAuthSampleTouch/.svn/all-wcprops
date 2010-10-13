@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/558/trunk/Examples/OAuthSampleTouch
+END
+mainTouch.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/436/trunk/Examples/OAuthSampleTouch/mainTouch.m
+END
+OAuthSampleRootViewControllerTouch.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/550/trunk/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/537/trunk/Examples/OAuthSampleTouch/Info.plist
+END
+Info-iPhone.plist
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/537/trunk/Examples/OAuthSampleTouch/Info-iPhone.plist
+END
+OAuthSampleMainiPad.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/558/trunk/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib
+END
+OAuthSampleAppDelegateTouch.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/436/trunk/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.h
+END
+prefixTouch.pch
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/436/trunk/Examples/OAuthSampleTouch/prefixTouch.pch
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/537/trunk/Examples/OAuthSampleTouch/README.txt
+END
+OAuthSampleMainTouch.xib
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/537/trunk/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib
+END
+OAuthSampleAppDelegateTouch.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/436/trunk/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m
+END
+OAuthSampleRootViewControllerTouch.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/537/trunk/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.h
+END

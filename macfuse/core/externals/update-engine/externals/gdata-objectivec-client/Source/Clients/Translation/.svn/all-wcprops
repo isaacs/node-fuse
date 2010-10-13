@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/571/trunk/Source/Clients/Translation
+END
+GDataQueryTranslation.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataQueryTranslation.m
+END
+GDataTranslationElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataTranslationElements.h
+END
+GDataTranslationConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataTranslationConstants.h
+END
+GDataTranslation.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataTranslation.h
+END
+GDataTranslationConstants.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataTranslationConstants.m
+END
+GDataTranslationElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/546/trunk/Source/Clients/Translation/GDataTranslationElements.m
+END
+GDataEntryTranslationGlossary.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataEntryTranslationGlossary.h
+END
+GDataFeedTranslationGlossary.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataFeedTranslationGlossary.h
+END
+GDataEntryTranslationGlossary.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataEntryTranslationGlossary.m
+END
+GDataEntryTranslationMemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataEntryTranslationMemory.h
+END
+GDataFeedTranslationGlossary.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataFeedTranslationGlossary.m
+END
+GDataFeedTranslationMemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataFeedTranslationMemory.h
+END
+GDataServiceGoogleTranslation.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataServiceGoogleTranslation.h
+END
+GDataEntryTranslationMemory.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataEntryTranslationMemory.m
+END
+GDataTranslationDocumentSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataTranslationDocumentSource.h
+END
+GDataEntryTranslationDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataEntryTranslationDocument.h
+END
+GDataFeedTranslationMemory.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataFeedTranslationMemory.m
+END
+GDataServiceGoogleTranslation.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/571/trunk/Source/Clients/Translation/GDataServiceGoogleTranslation.m
+END
+GDataFeedTranslationDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataFeedTranslationDocument.h
+END
+GDataTranslationDocumentSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataTranslationDocumentSource.m
+END
+GDataQueryTranslation.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataQueryTranslation.h
+END
+GDataEntryTranslationDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataEntryTranslationDocument.m
+END
+GDataFeedTranslationDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/418/trunk/Source/Clients/Translation/GDataFeedTranslationDocument.m
+END

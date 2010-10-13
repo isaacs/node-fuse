@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/398/trunk/Examples/AnalyticsSample
+END
+AnalyticsSample_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/AnalyticsSample_Prefix.pch
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/buildCopyScript
+END
+AnalyticsSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/396/trunk/Examples/AnalyticsSample/AnalyticsSampleWindowController.m
+END
+AnalyticsSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/AnalyticsSampleAppController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/398/trunk/Examples/AnalyticsSample/Info.plist
+END
+AnalyticsSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/AnalyticsSampleAppController.m
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/README.txt
+END
+AnalyticsSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/AnalyticsSampleWindowController.h
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/291/trunk/Examples/AnalyticsSample/buildStripHeaders
+END

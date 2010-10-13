@@ -1,3 +1,10 @@
+
+// warning: vapor!
+// this is just an API sketch.
+// the actual implementation may end up in a different place.
+
+
+
 var fuse = require("./fuse")
   , constants = require("constants")
   , hello = "Hello, world!"

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/543/trunk/Examples/YouTubeSample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/110/trunk/Examples/YouTubeSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/195/trunk/Examples/YouTubeSample/buildCopyScript
+END
+YouTubeSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/543/trunk/Examples/YouTubeSample/YouTubeSampleWindowController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/398/trunk/Examples/YouTubeSample/Info.plist
+END
+YouTubeSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/543/trunk/Examples/YouTubeSample/YouTubeSampleWindowController.m
+END
+YouTubeSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/110/trunk/Examples/YouTubeSample/YouTubeSampleAppController.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/159/trunk/Examples/YouTubeSample/README.txt
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/110/trunk/Examples/YouTubeSample/buildStripHeaders
+END
+YouTubeSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/110/trunk/Examples/YouTubeSample/YouTubeSampleAppController.m
+END

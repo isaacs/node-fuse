@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1534/trunk/core/autoinstaller/UpdateEngineExtensions
+END
+UpdatePrinterTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1534/trunk/core/autoinstaller/UpdateEngineExtensions/UpdatePrinterTest.m
+END
+UpdatePrinter.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1167/trunk/core/autoinstaller/UpdateEngineExtensions/UpdatePrinter.m
+END
+SignerTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/SignerTest.m
+END
+Signer.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/Signer.m
+END
+EngineDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1169/trunk/core/autoinstaller/UpdateEngineExtensions/EngineDelegate.h
+END
+PlistSigner.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/PlistSigner.h
+END
+EngineDelegateTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1169/trunk/core/autoinstaller/UpdateEngineExtensions/EngineDelegateTest.m
+END
+EngineDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1169/trunk/core/autoinstaller/UpdateEngineExtensions/EngineDelegate.m
+END
+PlistSigner.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/PlistSigner.m
+END
+PlistSignerTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/PlistSignerTest.m
+END
+SignedPlistServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/SignedPlistServer.h
+END
+SignedPlistServer.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1171/trunk/core/autoinstaller/UpdateEngineExtensions/SignedPlistServer.m
+END
+SignedPlistServerTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/SignedPlistServerTest.m
+END
+UpdatePrinter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/UpdatePrinter.h
+END
+Signer.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1166/trunk/core/autoinstaller/UpdateEngineExtensions/Signer.h
+END

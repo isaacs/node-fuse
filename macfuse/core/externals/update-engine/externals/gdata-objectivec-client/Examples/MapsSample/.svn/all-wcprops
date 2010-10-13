@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/408/trunk/Examples/MapsSample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/280/trunk/Examples/MapsSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/280/trunk/Examples/MapsSample/buildCopyScript
+END
+MapsSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/280/trunk/Examples/MapsSample/MapsSampleAppController.m
+END
+MapsSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/408/trunk/Examples/MapsSample/MapsSampleWindowController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/398/trunk/Examples/MapsSample/Info.plist
+END
+MapsSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/408/trunk/Examples/MapsSample/MapsSampleWindowController.m
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/280/trunk/Examples/MapsSample/README.txt
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/280/trunk/Examples/MapsSample/buildStripHeaders
+END
+MapsSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/280/trunk/Examples/MapsSample/MapsSampleAppController.h
+END

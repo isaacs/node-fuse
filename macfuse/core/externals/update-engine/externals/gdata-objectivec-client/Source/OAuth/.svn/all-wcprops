@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/576/trunk/Source/OAuth
+END
+GDataOAuthSignIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/567/trunk/Source/OAuth/GDataOAuthSignIn.h
+END
+GDataOAuthViewTouch.xib
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/549/trunk/Source/OAuth/GDataOAuthViewTouch.xib
+END
+GDataOAuthWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/566/trunk/Source/OAuth/GDataOAuthWindowController.h
+END
+GDataOAuthSignIn.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/567/trunk/Source/OAuth/GDataOAuthSignIn.m
+END
+GDataOAuthAuthentication.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/576/trunk/Source/OAuth/GDataOAuthAuthentication.h
+END
+GDataOAuthWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/567/trunk/Source/OAuth/GDataOAuthWindowController.m
+END
+GDataOAuthViewControllerTouch.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/566/trunk/Source/OAuth/GDataOAuthViewControllerTouch.h
+END
+GDataOAuthWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/526/trunk/Source/OAuth/GDataOAuthWindow.xib
+END
+GDataOAuthAuthentication.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/576/trunk/Source/OAuth/GDataOAuthAuthentication.m
+END
+GDataOAuthViewControllerTouch.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/567/trunk/Source/OAuth/GDataOAuthViewControllerTouch.m
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/575/trunk/Source/BaseClasses
+END
+GDataQuery.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/455/trunk/Source/BaseClasses/GDataQuery.m
+END
+GDataServiceBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/422/trunk/Source/BaseClasses/GDataServiceBase.h
+END
+GDataObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/522/trunk/Source/BaseClasses/GDataObject.m
+END
+GDataEntryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/530/trunk/Source/BaseClasses/GDataEntryBase.h
+END
+GDataServiceGoogle.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/575/trunk/Source/BaseClasses/GDataServiceGoogle.h
+END
+GDataFeedBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/452/trunk/Source/BaseClasses/GDataFeedBase.h
+END
+GDataServiceBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/547/trunk/Source/BaseClasses/GDataServiceBase.m
+END
+GDataEntryBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/444/trunk/Source/BaseClasses/GDataEntryBase.m
+END
+GDataServiceGoogle.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/545/trunk/Source/BaseClasses/GDataServiceGoogle.m
+END
+GDataFeedBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/546/trunk/Source/BaseClasses/GDataFeedBase.m
+END
+GDataQuery.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/444/trunk/Source/BaseClasses/GDataQuery.h
+END
+GDataObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/544/trunk/Source/BaseClasses/GDataObject.h
+END

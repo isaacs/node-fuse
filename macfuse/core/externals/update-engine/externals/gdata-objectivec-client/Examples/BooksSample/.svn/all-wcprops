@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/474/trunk/Examples/BooksSample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/150/trunk/Examples/BooksSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/195/trunk/Examples/BooksSample/buildCopyScript
+END
+BooksSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/150/trunk/Examples/BooksSample/BooksSampleAppController.m
+END
+BooksSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/474/trunk/Examples/BooksSample/BooksSampleWindowController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/398/trunk/Examples/BooksSample/Info.plist
+END
+BooksSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/474/trunk/Examples/BooksSample/BooksSampleWindowController.m
+END
+BooksSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/150/trunk/Examples/BooksSample/BooksSampleAppController.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/159/trunk/Examples/BooksSample/README.txt
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/150/trunk/Examples/BooksSample/buildStripHeaders
+END

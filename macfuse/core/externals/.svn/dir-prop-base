@@ -1,0 +1,7 @@
+K 13
+svn:externals
+V 141
+update-engine http://update-engine.googlecode.com/svn/trunk/
+google-toolbox-for-mac/ http://google-toolbox-for-mac.googlecode.com/svn/trunk/
+
+END

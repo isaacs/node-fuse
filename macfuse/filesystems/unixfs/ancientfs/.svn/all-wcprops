@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1624/trunk/filesystems/unixfs/ancientfs
+END
+ancientfs_dump.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_dump.c
+END
+ancientfs_2.9bsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_2.9bsd.h
+END
+ancientfs_voar.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_voar.c
+END
+ancientfs_32v.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_32v.c
+END
+ancientfs_dump.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_dump.h
+END
+ancientfs_voar.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_voar.h
+END
+ancientfs_cpio_odc.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_cpio_odc.c
+END
+ancientfs_32v.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_32v.h
+END
+ancientfs_dumpvn1024.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_dumpvn1024.c
+END
+ancientfs_oar.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1624/trunk/filesystems/unixfs/ancientfs/ancientfs_oar.c
+END
+ancientfs_tp.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_tp.c
+END
+ancientfs_v1,2,3.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_v1,2,3.c
+END
+ancientfs_cpio_odc.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_cpio_odc.h
+END
+ancientfs_tap.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_tap.c
+END
+ancientfs_tar.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_tar.c
+END
+ancientfs_oar.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_oar.h
+END
+ancientfs_v1,2,3.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1595/trunk/filesystems/unixfs/ancientfs/ancientfs_v1,2,3.h
+END
+ancientfs_tp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_tp.h
+END
+ancientfs_tap.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_tap.h
+END
+ancientfs_tar.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_tar.h
+END
+ancientfs_v4,5,6.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_v4,5,6.c
+END
+ancientfs_v7.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_v7.c
+END
+ancientfs_v4,5,6.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_v4,5,6.h
+END
+ancientfs_v7.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_v7.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1621/trunk/filesystems/unixfs/ancientfs/Makefile
+END
+ancientfs_ar.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_ar.c
+END
+ancientfs_cpio_newc.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_cpio_newc.c
+END
+ancientfs_v10.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_v10.c
+END
+ancientfs_ar.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_ar.h
+END
+ancientfs_dumpvn.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_dumpvn.c
+END
+ancientfs_2.11bsd.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_2.11bsd.c
+END
+COPYRIGHT.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/COPYRIGHT.txt
+END
+ancientfs_cpio_newc.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_cpio_newc.h
+END
+ancientfs_mainx.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1624/trunk/filesystems/unixfs/ancientfs/ancientfs_mainx.c
+END
+ancientfs_dump1024.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_dump1024.c
+END
+ancientfs_dumpvn.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_dumpvn.h
+END
+ancientfs_2.11bsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_2.11bsd.h
+END
+AncientUnix.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/AncientUnix.pdf
+END
+ancientfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs.h
+END
+ancientfs_dtp.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_dtp.c
+END
+ancientfs_bcpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_bcpio.c
+END
+ancientfs_dtp.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_dtp.h
+END
+ancientfs_itp.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_itp.c
+END
+ancientfs_2.9bsd.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1622/trunk/filesystems/unixfs/ancientfs/ancientfs_2.9bsd.c
+END
+ancientfs_itp.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_itp.h
+END
+ancientfs_bcpio.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1586/trunk/filesystems/unixfs/ancientfs/ancientfs_bcpio.h
+END

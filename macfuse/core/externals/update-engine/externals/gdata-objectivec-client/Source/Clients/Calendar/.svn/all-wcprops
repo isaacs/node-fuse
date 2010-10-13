@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/571/trunk/Source/Clients/Calendar
+END
+GDataServiceGoogleCalendar.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/571/trunk/Source/Clients/Calendar/GDataServiceGoogleCalendar.m
+END
+GDataFeedCalendar.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataFeedCalendar.h
+END
+GDataRecurrence.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataRecurrence.h
+END
+GDataEntryCalendarEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataEntryCalendarEvent.h
+END
+GDataQueryCalendar.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/480/trunk/Source/Clients/Calendar/GDataQueryCalendar.h
+END
+GDataCalendarSettingsProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataCalendarSettingsProperty.h
+END
+GDataRecurrence.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataRecurrence.m
+END
+GDataEntryCalendarEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/546/trunk/Source/Clients/Calendar/GDataEntryCalendarEvent.m
+END
+GDataFeedCalendar.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/435/trunk/Source/Clients/Calendar/GDataFeedCalendar.m
+END
+GDataQueryCalendar.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/363/trunk/Source/Clients/Calendar/GDataQueryCalendar.m
+END
+GDataCalendarSettingsProperty.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataCalendarSettingsProperty.m
+END
+GDataFeedEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataFeedEvent.h
+END
+GDataReminder.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataReminder.h
+END
+GDataEntryMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataEntryMessage.h
+END
+GDataOriginalEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataOriginalEvent.h
+END
+GDataWebContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/370/trunk/Source/Clients/Calendar/GDataWebContent.h
+END
+GDataReminder.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataReminder.m
+END
+GDataFeedEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataFeedEvent.m
+END
+GDataOriginalEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataOriginalEvent.m
+END
+GDataEntryMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataEntryMessage.m
+END
+GDataRecurrenceException.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataRecurrenceException.h
+END
+GDataEntryCalendarSettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataEntryCalendarSettings.h
+END
+GDataWebContent.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/370/trunk/Source/Clients/Calendar/GDataWebContent.m
+END
+GDataEntryCalendarSettings.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/435/trunk/Source/Clients/Calendar/GDataEntryCalendarSettings.m
+END
+GDataRecurrenceException.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataRecurrenceException.m
+END
+GDataEntryCalendar.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataEntryCalendar.h
+END
+GDataFeedCalendarEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataFeedCalendarEvent.h
+END
+GDataEntryCalendar.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/435/trunk/Source/Clients/Calendar/GDataEntryCalendar.m
+END
+GDataEntryEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataEntryEvent.h
+END
+GDataFeedCalendarEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/435/trunk/Source/Clients/Calendar/GDataFeedCalendarEvent.m
+END
+GDataEntryEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataEntryEvent.m
+END
+GDataFeedMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataFeedMessage.h
+END
+GDataCalendar.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/265/trunk/Source/Clients/Calendar/GDataCalendar.h
+END
+GDataFeedMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataFeedMessage.m
+END
+GDataFeedCalendarSettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/305/trunk/Source/Clients/Calendar/GDataFeedCalendarSettings.h
+END
+GDataFeedCalendarSettings.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/435/trunk/Source/Clients/Calendar/GDataFeedCalendarSettings.m
+END
+GDataServiceGoogleCalendar.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/571/trunk/Source/Clients/Calendar/GDataServiceGoogleCalendar.h
+END

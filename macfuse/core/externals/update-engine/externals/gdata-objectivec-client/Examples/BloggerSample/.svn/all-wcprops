@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/398/trunk/Examples/BloggerSample
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/40/trunk/Examples/BloggerSample/main.m
+END
+buildCopyScript
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/195/trunk/Examples/BloggerSample/buildCopyScript
+END
+BloggerSampleAppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/40/trunk/Examples/BloggerSample/BloggerSampleAppController.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/398/trunk/Examples/BloggerSample/Info.plist
+END
+BloggerSampleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/313/trunk/Examples/BloggerSample/BloggerSampleWindowController.h
+END
+BloggerSample_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/40/trunk/Examples/BloggerSample/BloggerSample_Prefix.pch
+END
+BloggerSampleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/396/trunk/Examples/BloggerSample/BloggerSampleWindowController.m
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/159/trunk/Examples/BloggerSample/README.txt
+END
+buildStripHeaders
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/91/trunk/Examples/BloggerSample/buildStripHeaders
+END
+BloggerSampleAppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/40/trunk/Examples/BloggerSample/BloggerSampleAppController.h
+END

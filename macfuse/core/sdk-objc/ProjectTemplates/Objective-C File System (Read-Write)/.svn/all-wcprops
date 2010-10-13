@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1544/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1506/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/main.m
+END
+TemplateFS.icns
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1507/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/TemplateFS.icns
+END
+TemplateFS_Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1506/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/TemplateFS_Controller.m
+END
+TemplateFS_Filesystem.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1506/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/TemplateFS_Filesystem.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1506/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/Info.plist
+END
+TemplateFS.d
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1544/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/TemplateFS.d
+END
+TemplateFS_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1506/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/TemplateFS_Prefix.pch
+END
+TemplateFS_Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1506/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/TemplateFS_Controller.h
+END
+TemplateFS_Filesystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1506/trunk/core/sdk-objc/ProjectTemplates/Objective-C%20File%20System%20(Read-Write)/TemplateFS_Filesystem.h
+END
