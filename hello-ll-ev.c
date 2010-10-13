@@ -10,6 +10,8 @@
 
 #define FUSE_USE_VERSION 26
 
+#include <ev.h>
+
 #include <fuse_lowlevel.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +21,6 @@
 #include <unistd.h>
 #include <assert.h>
 
-#include <ev.h>
 #include <assert.h>
 
 static const char *hello_str = "Hello World!\n";
@@ -159,37 +160,104 @@ static struct fuse_lowlevel_ops hello_ll_oper = {
 	.read		= hello_ll_read,
 };
 
+
+// ev-specific stuff below
+
 static struct ev_loop *loop;
 static ev_io channel_watcher;
-static ev_timer garbage_watcher;
 
+static void channel_read 
+  ( struct ev_loop *loop
+  , ev_io *watcher
+  , int revent
+  )
+{
+  struct fuse_chan *channel = watcher->data;
+  struct fuse_session *session = fuse_chan_session(channel);
+
+  size_t bufferSize = fuse_chan_bufsize (channel);
+  char buf[bufferSize];
+
+  if (fuse_session_exited (session)) {
+    ev_io_stop (loop, watcher);
+    return;
+  }
+
+  struct fuse_chan *tmpch = channel;
+  
+  int recved;
+  recved = fuse_chan_recv (&tmpch, buf, bufferSize);
+  if (recved > 0)
+    fuse_session_process (session, buf, recved, tmpch);
+}
 
 
 int main(int argc, char *argv[])
 {
-	struct fuse_args args = FUSE_ARGS_INIT(argc, argv);
-	struct fuse_chan *ch;
+  struct fuse_args args = FUSE_ARGS_INIT(argc, argv);
+	struct fuse_chan *channel;
 	char *mountpoint;
-	int err = -1;
+  int r = 0;
+
+  r = fuse_parse_cmdline(&args, &mountpoint, NULL, NULL);
+  if(r == -1) {
+    fuse_opt_free_args(&args);
+  	return 1;
+  }
+
+  channel = fuse_mount(mountpoint, &args);
+  if(channel == NULL) {
+    fuse_opt_free_args(&args);
+    return 2;
+  }
+
+  struct fuse_session *session = 
+    fuse_lowlevel_new(&args, &hello_ll_oper, sizeof(hello_ll_oper), NULL);
+
+  if(session == NULL) {
+    fuse_unmount(mountpoint, channel);
+    fuse_opt_free_args(&args);
+    return 1;
+  }
+
+  // SIGNAL HANDLERS
+  struct sigaction sa;
+  memset(&sa, 0, sizeof(struct sigaction));
+  sigemptyset(&(sa.sa_mask));
+  sa.sa_flags = 0;
+  r = sigaction(SIGINT, &sa, NULL);
+  assert(r == 0);
+  r = sigaction(SIGTERM, &sa, NULL);
+  assert(r == 0);
+
+  fuse_session_add_chan(session, channel);
+
+  // r = fcntl(fuse_chan_fd(channel), F_SETFL, O_NONBLOCK);
+  // assert(r == 0);
   
-	if (fuse_parse_cmdline(&args, &mountpoint, NULL, NULL) != -1 &&
-	    (ch = fuse_mount(mountpoint, &args)) != NULL) {
-		struct fuse_session *se;
+  // set up the channel_watcher with ev
+  fprintf(stderr, "about to ev init\n");
+  ev_init(&channel_watcher, channel_read);
+  fprintf(stderr, "about to ev io set\n");
+  ev_io_set(&channel_watcher, fuse_chan_fd(channel), EV_READ);
+  channel_watcher.data = channel;
+  
+  fprintf(stderr, "about to ev io start\n");
+  // segfault here:
+  ev_io_start(loop, &channel_watcher);
+  
+  // run the loop
+  fprintf(stderr, "about to ev loop\n");
+  ev_loop(loop, 0);
 
-		se = fuse_lowlevel_new(&args, &hello_ll_oper,
-				       sizeof(hello_ll_oper), NULL);
-		if (se != NULL) {
-			if (fuse_set_signal_handlers(se) != -1) {
-				fuse_session_add_chan(se, ch);
-				err = fuse_session_loop(se);
-				fuse_remove_signal_handlers(se);
-				fuse_session_remove_chan(ch);
-			}
-			fuse_session_destroy(se);
-		}
-		fuse_unmount(mountpoint, ch);
-	}
+  fprintf(stderr, "exited loop\n");
+  
+  // cleanup
+  // XXX Is this necessary here? If the loop exits, isn't it already "stopped"?
+  ev_io_stop (loop, &channel_watcher);
+  fuse_session_remove_chan(channel);
+  fuse_session_destroy(session);
+  fuse_unmount(mountpoint, channel);
 	fuse_opt_free_args(&args);
-
-	return err ? 1 : 0;
+  return 0;
 }
