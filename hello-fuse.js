@@ -1,38 +1,58 @@
 var fuse = require("./fuse")
   , constants = require("constants")
+  , hello = "Hello, world!"
+  , mountPoint = process.argv[2]
+
+// if no mount point provided, throw
+// if it's not a dir, then fuse will raise an error later.
+if (!mountPoint) throw new Error("no mountpoint")
+
+// mount the filesystem
 fuse.mount
-  ( { getattr : function (path, cb) {
-        if (path === "/") {
-          cb( null
-            , { st_mode : constants.S_IFDIR | 0755
-              , st_nlink : 2
-              }
-            )
-        } else if (path === "/hello") {
-          cb(null
-            , { st_mode : constants.S_IFREG | 0444
-              , st_nlink : 1
-              , st_size : "hello world".length
-              }
-            )
-        } else {
-          cb(-1 * constants.ENOENT)
-        }
-      }
-    , readdir : function (path, offset, info) {
-        if (path !== "/") return -1 * constants.ENOENT
-        return [ "." , ".." , "hello" ]
-      }
-    , open : function (path, info) {
-        if (path !== "/hello") return -1 * constants.ENOENT
-        if((info.flags & 3) != constants.O_RDONLY ) {
-          return -1 * constants.EACCES
-        }
-        return 0
-      }
-    , read : function (path, buf, size, offset, info, cb) {
-        
-      }
+  ( { getattr : getattr
+    , readdir : readdir
+    , open : open
+    , read : read
     }
-  , []
+  , mountPoint // the folder to mount onto
+  , [] // args to fuse
   )
+
+
+function getattr (path, cb) {
+  if (path === "/") {
+    cb( null
+      , { st_mode : constants.S_IFDIR | 0755
+        , st_nlink : 2
+        } // stat object
+      )
+  } else if (path === "/hello") {
+    cb(null
+      , { st_mode : constants.S_IFREG | 0444
+        , st_nlink : 1
+        , st_size : hello.length
+        } // stat object
+      )
+  } else {
+    cb(constants.ENOENT) // error code
+  }
+}
+function readdir (path, offset, info, cb) {
+  if (path !== "/") {
+    cb(constants.ENOENT)
+  } else {
+    cb(null, [ "." , ".." , "hello" ])
+  }
+}
+function open (path, info, cb) {
+  if (path !== "/hello") return cb(constants.ENOENT)
+  if((info.flags & 3) != constants.O_RDONLY ) {
+    cb(constants.EACCES) // readonly fs
+  } else {
+    cb() // pass in nothing, the fd is managed by fuse.
+  }
+}
+function read (path, size, offset, info, cb) {
+  if (path !== "/hello") return cb(constants.ENOENT)
+  return cb(new Buffer(hello.slice(offset, size)))
+}
