@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "postinstall to stderr" >&2
-
-exit 0
-
