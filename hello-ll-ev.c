@@ -265,6 +265,6 @@ int main(int argc, char *argv[])
   fuse_session_remove_chan(channel);
   fuse_session_destroy(session);
   fuse_unmount(mountpoint, channel);
-	fuse_opt_free_args(&args);
+  fuse_opt_free_args(&args);
   return 0;
 }
