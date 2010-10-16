@@ -1,6 +1,6 @@
 
 CFLAGS = `pkg-config fuse --cflags --libs` -D__DARWIN_64_BIT_INO_T=0
-NODEFLAGS = -I/usr/local/include/node -L/usr/local/include/node
+NODEFLAGS = `pkg-config nodejs --libs --cflags`
 
 all: hello-ll-ev hello-ll-mt hello
 	@true
