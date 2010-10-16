@@ -1,0 +1,3 @@
+[submodule "fuse"]
+	path = fuse
+	url = git://fuse.git.sourceforge.net/gitroot/fuse/fuse
