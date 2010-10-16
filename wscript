@@ -34,7 +34,7 @@ def build(bld):
   # obj.target = "nas"
   # obj.source = "nas.cc"
   obj.target = "hello-ll"
-  obj.source = "hello-ll-node.cc"
+  obj.source = "hello-ll-node-async.cc"
   
   obj.cxxflags = [ "-D_FILE_OFFSET_BITS=64", "-D_LARGEFILE_SOURCE" ]
   if sys.platform.startswith("darwin"):
