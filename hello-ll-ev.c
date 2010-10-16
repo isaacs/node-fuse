@@ -236,11 +236,18 @@ int main(int argc, char *argv[])
   // assert(r == 0);
   
   // set up the channel_watcher with ev
+  memset(&channel_watcher, 0, sizeof(channel_watcher));
   fprintf(stderr, "about to ev init\n");
   ev_init(&channel_watcher, channel_read);
   fprintf(stderr, "about to ev io set\n");
   ev_io_set(&channel_watcher, fuse_chan_fd(channel), EV_READ);
   channel_watcher.data = channel;
+  channel_watcher.fd = fuse_chan_fd(channel);
+  fprintf(stderr, "fd = %d\n", channel_watcher.fd);
+  
+  struct ev_io *cw;
+  cw = &channel_watcher;
+  fprintf(stderr, "fd = %d\n", cw->fd);
   
   fprintf(stderr, "about to ev io start\n");
   // segfault here:
