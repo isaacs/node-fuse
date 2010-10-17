@@ -46,6 +46,7 @@ int hello_main (struct fuse_args);
 static int EIO_Mount (eio_req *);
 static int Mount_After (eio_req *);
 
+
 static Handle<Value> MountAsync (const Arguments& args) {
   HandleScope scope;
   const char *usage = "usage: mount(mountpoint [, fuseargs])";
@@ -276,7 +277,9 @@ int hello_main (struct fuse_args args)
 	char *mountpoint;
 	int err = -1;
   int ret = 0;
-  // int ret = fuse_parse_cmdline(&args, &mountpoint, NULL, NULL);
+  // Seems like this doesn't work because it expects argv[0]
+  // to be the programname, which it never ever is in our situation.
+  // ret = fuse_parse_cmdline(&args, &mountpoint, NULL, NULL);
   fprintf(stderr, "fused cmdline %d (0 is good)\n", ret);
   fprintf(stderr, "about to mount to %s\n", args.argv[0]);
   for (int i = 0; i < args.argc; i ++) {
