@@ -57,7 +57,6 @@ static Handle<Value> MountAsync (const Arguments& args) {
   ) {
     return ThrowException(Exception::Error(String::New(usage)));
   }
-  Local<Function> cb = Local<Function>::Cast(args[args.Length() - 1]);
   Handle<Array> fuseArgs;
   if (args.Length() == 2) {
     fuseArgs = Array::New(0);
@@ -65,38 +64,33 @@ static Handle<Value> MountAsync (const Arguments& args) {
     fuseArgs = Handle<Array>::Cast(args[1]);
   }
 
-  char **argv;
-  int argc = 1 + fuseArgs->Length();
-
-  // mountpoint is the first argument.
-  String::Utf8Value mp(args[0]);
-  argv = (char **)malloc(argc * sizeof(char *) + sizeof(void *));
-  assert(argv);
-  argv[0] = (char *)malloc(sizeof(char) * (mp.length() + 1));
-  assert(argv[0]);
-  strncpy(argv[0], *mp, mp.length() + 1);
-  for (int i = 1; i < argc; i ++) {
-    String::Utf8Value fa(fuseArgs->Get(i - 1)->ToString());
-    argv[i] = (char *)malloc(sizeof(char) * fa.length() + 1);
-    assert(argv[i]);
-    strncpy(argv[i], *fa, fa.length() + 1);
-  }
-  fprintf(stderr, "argc: %i\n", argc);
-  fprintf(stderr, "args:\n");
-  for (int i = 1; i < argc; i ++) {
-    fprintf(stderr, "%i: %s\n", i, argv[i]);
-  }
-  argv[argc] = NULL;
-  // create the hello request.
-  // we're going to do something like hello_main(argc, argv)
   hello_req *hr = (hello_req *)malloc(sizeof(struct hello_req));
-  assert(hr);
-  memset(hr, 0, sizeof(struct hello_req));
+  memset(hr, 0, sizeof(hello_req));
+  Local<Function> cb = Local<Function>::Cast(args[args.Length() - 1]);
   hr->cb = Persistent<Function>::New(cb);
-  // hr->args = FUSE_ARGS_INIT(argc, argv);
-  hr->args.argc = argc;
-  hr->args.argv = argv;
-  hr->args.allocated = 0;
+
+  String::Utf8Value mp(args[0]);
+  int add_failed;
+  
+  fprintf(stderr, "before mp: %s, args: %d\n", *mp, hr->args.argv);
+  add_failed = fuse_opt_add_arg(&(hr->args), *mp);
+  fprintf(stderr, "after mp: %s, args: %d\n", *mp, hr->args.argv);
+  if (add_failed) {
+    fuse_opt_free_args(&(hr->args));
+    free(hr);
+    return ThrowException(Exception::Error(String::New("failed alloc")));
+  }
+  for (int i = 0; i < fuseArgs->Length(); i ++) {
+    String::Utf8Value fa(fuseArgs->Get(i)->ToString());
+    add_failed = fuse_opt_add_arg(&(hr->args), *fa);
+    fprintf(stderr, "after %s, args: %d\n", *fa, hr->args.argv);
+    if (add_failed) {
+      fuse_opt_free_args(&(hr->args));
+      free(hr);
+      return ThrowException(Exception::Error(String::New("failed alloc")));
+    }    
+  }
+  
 
   eio_custom(EIO_Mount, EIO_PRI_DEFAULT, Mount_After, hr);
   ev_ref(EV_DEFAULT_UC);
@@ -112,19 +106,28 @@ static int EIO_Mount (eio_req *req) {
 }
 
 static int Mount_After (eio_req *req) {
+  fprintf(stderr, "after\n");
   HandleScope scope;
   ev_unref(EV_DEFAULT_UC);
   struct hello_req * hr = (struct hello_req *)req->data;
   
   // it's been unmounted, either by us or someone else.
-  Local<Value> argv[1];
-  argv[0] = hr->retval ? Exception::Error(Number::New(hr->retval)->ToString())
-                       : Local<Value>::New(Null());
+  Local<Value> cb_argv[1];
+  cb_argv[0] = hr->retval ? Exception::Error(Number::New(hr->retval)->ToString())
+                          : Local<Value>::New(Null());
   TryCatch try_catch;
-  hr->cb->Call(Context::GetCurrent()->Global(), 1, argv);
+  fprintf(stderr, "about to cb \n");
+  assert(!hr->cb.IsEmpty());
+  hr->cb->Call(Context::GetCurrent()->Global(), 0, cb_argv);
+  fprintf(stderr, "called\n");
   if (try_catch.HasCaught()) FatalException(try_catch);
+  fprintf(stderr, "disposing\n");
   hr->cb.Dispose();
-  free(hr);
+  hr->args.allocated = 1;
+  fprintf(stderr, "about to free args\n");
+  fuse_opt_free_args(&(hr->args));
+  fprintf(stderr, "freed args\n");
+  // free(hr);
   return 0;
 }
 
@@ -260,11 +263,11 @@ static void hello_ll_read(fuse_req_t req, fuse_ino_t ino, size_t size,
 
 int hello_main (struct fuse_args args)
 {
-  int argc = args.argc;
-  char **argv = args.argv;
-  fprintf(stderr, "hello_main with %d args\n", argc);
-  for (int i = 0; i < argc; i ++) {
-    fprintf(stderr, "%d: %s\n", i, argv[i]);
+  // int argc = args.argc;
+  // char **argv = args.argv;
+  fprintf(stderr, "hello_main with %d args\n", args.argc);
+  for (int i = 0; i < args.argc; i ++) {
+    fprintf(stderr, "%d: %s\n", i, args.argv[i]);
   }
 
   fprintf(stderr, "fused args %d\n", args);
@@ -272,13 +275,15 @@ int hello_main (struct fuse_args args)
 	struct fuse_chan *ch;
 	char *mountpoint;
 	int err = -1;
-  int ret = fuse_parse_cmdline(&args, &mountpoint, NULL, NULL);
+  int ret = 0;
+  // int ret = fuse_parse_cmdline(&args, &mountpoint, NULL, NULL);
   fprintf(stderr, "fused cmdline %d (0 is good)\n", ret);
-  fprintf(stderr, "about to mount to %s\n", mountpoint);
-  for (int i = 0; i < argc; i ++) {
-    fprintf(stderr, "%d: %s\n", i, argv[i]);
+  fprintf(stderr, "about to mount to %s\n", args.argv[0]);
+  for (int i = 0; i < args.argc; i ++) {
+    fprintf(stderr, "%d: %s\n", i, args.argv[i]);
   }
-  ch = fuse_mount(argv[0], &args);
+  args.allocated = 0;
+  ch = fuse_mount(args.argv[0], &args);
   fprintf(stderr, "fuse mounted to channel: %d\n", ch);
   assert(ch);
 
@@ -307,8 +312,6 @@ int hello_main (struct fuse_args args)
 		fuse_unmount(mountpoint, ch);
     fprintf(stderr, "unmounted\n");
 	}
-	fuse_opt_free_args(&args);
-  fprintf(stderr, "freed args\n");
 
 	return err ? 1 : 0;
 }
