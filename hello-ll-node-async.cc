@@ -34,16 +34,15 @@ static struct fuse_lowlevel_ops hello_ll_oper;
 
 struct hello_req {
   Persistent<Function> cb;
-  int argc;
+  struct fuse_args args;
   int retval;
-  char **argv; // mountpoint is shoved onto this.
 };
 
 
 static Handle<Value> Mount (const Arguments&);
 static Handle<Value> MountAsync (const Arguments&);
 extern "C" void init (Handle<Object>);
-int hello_main (int, char **);
+int hello_main (struct fuse_args);
 static int EIO_Mount (eio_req *);
 static int Mount_After (eio_req *);
 
@@ -94,8 +93,10 @@ static Handle<Value> MountAsync (const Arguments& args) {
   assert(hr);
   memset(hr, 0, sizeof(struct hello_req));
   hr->cb = Persistent<Function>::New(cb);
-  hr->argc = argc;
-  hr->argv = argv;
+  // hr->args = FUSE_ARGS_INIT(argc, argv);
+  hr->args.argc = argc;
+  hr->args.argv = argv;
+  hr->args.allocated = 0;
 
   eio_custom(EIO_Mount, EIO_PRI_DEFAULT, Mount_After, hr);
   ev_ref(EV_DEFAULT_UC);
@@ -106,7 +107,7 @@ static Handle<Value> MountAsync (const Arguments& args) {
 // doing v8 things in here will make bad happen.
 static int EIO_Mount (eio_req *req) {
   struct hello_req * hr = (struct hello_req *)req->data;
-  hr->retval = hello_main(hr->argc, hr->argv);
+  hr->retval = hello_main(hr->args);
   return 0;
 }
 
@@ -257,14 +258,14 @@ static void hello_ll_read(fuse_req_t req, fuse_ino_t ino, size_t size,
 
 
 
-int hello_main (int argc, char **argv)
+int hello_main (struct fuse_args args)
 {
+  int argc = args.argc;
+  char **argv = args.argv;
   fprintf(stderr, "hello_main with %d args\n", argc);
   for (int i = 0; i < argc; i ++) {
     fprintf(stderr, "%d: %s\n", i, argv[i]);
   }
-
-	struct fuse_args args = FUSE_ARGS_INIT(argc, argv);
 
   fprintf(stderr, "fused args %d\n", args);
 
