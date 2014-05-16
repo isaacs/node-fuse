@@ -88,8 +88,9 @@ static void dirbuf_add(fuse_req_t req, struct dirbuf *b, const char *name,
 {
 	struct stat stbuf;
 	size_t oldsize = b->size;
+	char *newp;
 	b->size += fuse_add_direntry(req, NULL, 0, name, NULL, 0);
-        char *newp = realloc(b->p, b->size);
+        newp = realloc(b->p, b->size);
         if (!newp) {
             fprintf(stderr, "*** fatal error: cannot allocate memory\n");
             abort();
@@ -177,15 +178,16 @@ static void channel_read
 
   size_t bufferSize = fuse_chan_bufsize (channel);
   char buf[bufferSize];
+	struct fuse_chan *tmpch;
+  int recved;
 
   if (fuse_session_exited (session)) {
     ev_io_stop (loop, watcher);
     return;
   }
 
-  struct fuse_chan *tmpch = channel;
+  tmpch = channel;
   
-  int recved;
   recved = fuse_chan_recv (&tmpch, buf, bufferSize);
   if (recved > 0)
     fuse_session_process (session, buf, recved, tmpch);
@@ -196,6 +198,11 @@ int main(int argc, char *argv[])
 {
   struct fuse_args args = FUSE_ARGS_INIT(argc, argv);
 	struct fuse_chan *channel;
+	struct fuse_session *session;
+
+  struct ev_io *cw;
+  struct sigaction sa;
+
 	char *mountpoint;
   int r = 0;
 
@@ -211,7 +218,7 @@ int main(int argc, char *argv[])
     return 2;
   }
 
-  struct fuse_session *session = 
+  session = 
     fuse_lowlevel_new(&args, &hello_ll_oper, sizeof(hello_ll_oper), NULL);
 
   if(session == NULL) {
@@ -221,7 +228,6 @@ int main(int argc, char *argv[])
   }
 
   // SIGNAL HANDLERS
-  struct sigaction sa;
   memset(&sa, 0, sizeof(struct sigaction));
   sigemptyset(&(sa.sa_mask));
   sa.sa_flags = 0;
@@ -237,19 +243,17 @@ int main(int argc, char *argv[])
   
   // set up the channel_watcher with ev
   memset(&channel_watcher, 0, sizeof(channel_watcher));
-  fprintf(stderr, "about to ev init\n");
+	loop=ev_default_loop(0);
+		fprintf(stderr, "about to ev init...");
   ev_init(&channel_watcher, channel_read);
-  fprintf(stderr, "about to ev io set\n");
+		fprintf(stderr, "done.\nabout to ev io set...");
   ev_io_set(&channel_watcher, fuse_chan_fd(channel), EV_READ);
+		fprintf(stderr, "done.\n");
   channel_watcher.data = channel;
   channel_watcher.fd = fuse_chan_fd(channel);
-  fprintf(stderr, "fd = %d\n", channel_watcher.fd);
-  
-  struct ev_io *cw;
-  cw = &channel_watcher;
-  fprintf(stderr, "fd = %d\n", cw->fd);
-  
-  fprintf(stderr, "about to ev io start\n");
+		fprintf(stderr, "cw.fd = %d\n", channel_watcher.fd);
+		fprintf(stderr, "about to ev io start....BOOM!\n");
+
   // segfault here:
   ev_io_start(loop, &channel_watcher);
   
